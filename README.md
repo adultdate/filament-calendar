@@ -1,24 +1,24 @@
-![calendar Banner](https://github.com/GuavaCZ/calendar/raw/main/docs/images/banner.jpg)
+![filament-calendar Banner](https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/banner.jpg)
 
 
-# Adds support for vkurko/calendar to Filament PHP.
+# Adds support for vkurko/filament-calendar to Filament PHP.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/guava/calendar.svg?style=flat-square)](https://packagist.org/packages/guava/calendar)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/guava/calendar/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/GuavaCZ/calendar/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/guava/calendar/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/GuavaCZ/calendar/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/guava/calendar.svg?style=flat-square)](https://packagist.org/packages/guava/calendar)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/adultdate/calendar.svg?style=flat-square)](https://packagist.org/packages/adultdate/calendar)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/adultdate/filament-calendar/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/GuavaCZ/filament-calendar/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/adultdate/filament-calendar/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/GuavaCZ/filament-calendar/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/adultdate/filament-calendar.svg?style=flat-square)](https://packagist.org/packages/adultdate/filament-calendar)
 
 > [!NOTE]  
-> You are viewing the documentation for guava/calendar v2, which supports only filament v4.
-> For filament v3, please check guava/calendar v1 here.
+> You are viewing the documentation for adultdate/filament-calendar v2, which supports only filament v4.
+> For filament v3, please check adultdate/filament-calendar v1 here.
 
-This package adds support for [vkurko/calendar](https://github.com/vkurko/calendar) (free, open-source alternative to FullCalendar) to your FilamentPHP panels.
+This package adds support for [vkurko/filament-calendar](https://github.com/vkurko/filament-calendar) (free, open-source alternative to FullCalendar) to your FilamentPHP panels.
 
-It allows you to create a widget with a calendar with support for **multiple** models and even resources you can group your events into. For example, you could have lessons (events) that are held in different rooms (resources).
+It allows you to create a widget with a filament-calendar with support for **multiple** models and even resources you can group your events into. For example, you could have lessons (events) that are held in different rooms (resources).
 
 ## Showcase
-![Showcase 01](https://github.com/GuavaCZ/calendar/raw/main/docs/images/showcase_01.png)
-![Showcase 02](https://github.com/GuavaCZ/calendar/raw/main/docs/images/showcase_02.png)
+![Showcase 01](https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/showcase_01.png)
+![Showcase 02](https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/showcase_02.png)
 
 
 
@@ -30,22 +30,22 @@ https://github.com/user-attachments/assets/fc7828ab-ccd2-4252-942a-9679af1e7687
 
 
 <video width="320" height="240" controls>
-  <source src="https://github.com/GuavaCZ/calendar/raw/main/docs/images/demo_preview.mp4" type="video/mp4">
+  <source src="https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/demo_preview.mp4" type="video/mp4">
 </video>
 
 https://github.com/user-attachments/assets/a4460084-e8a8-4b1b-9ccd-4d887895155b
 
 
-![Resources Screenshot 01](https://github.com/GuavaCZ/calendar/raw/main/docs/images/resources_screenshot_01.png)
+![Resources Screenshot 01](https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/resources_screenshot_01.png)
 
 <video width="320" height="240" controls>
-  <source src="https://github.com/GuavaCZ/calendar/raw/main/docs/images/context_menu_preview.mp4" type="video/mp4">
+  <source src="https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/context_menu_preview.mp4" type="video/mp4">
 </video>
 
 https://github.com/user-attachments/assets/a2641b40-9cbd-4c40-b360-7621caa86c40
 
 <video width="320" height="240" controls>
-  <source src="https://github.com/GuavaCZ/calendar/raw/main/docs/images/context_menu_preview_2.mp4" type="video/mp4">
+  <source src="https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/context_menu_preview_2.mp4" type="video/mp4">
 </video>
 
 
@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/4996cc6a-7cee-4c7d-976a-60d3a4368f76
 
 
 <video width="320" height="240" controls>
-  <source src="https://github.com/GuavaCZ/calendar/raw/main/docs/images/no_events_context_menu.mp4" type="video/mp4">
+  <source src="https://github.com/GuavaCZ/filament-calendar/raw/main/docs/images/no_events_context_menu.mp4" type="video/mp4">
 </video>
 
 https://github.com/user-attachments/assets/7c2537d5-8acf-459f-a9a8-be02d4018448
@@ -70,7 +70,7 @@ While our plugin is available for all to use, if you are utilizing it for commer
 You can install the package via composer:
 
 ```bash
-composer require guava/calendar
+composer require adultdate/filament-calendar
 ```
 
 Make sure to publish the package assets using:
@@ -83,19 +83,19 @@ Finally, make sure you have a **custom filament theme** (read [here](https://fil
 
 This ensures that the CSS is properly built:
 ```css
-@source '../../../../vendor/guava/calendar/resources/**/*';
+@source '../../../../vendor/adultdate/filament-calendar/resources/**/*';
 ```
 
 This is optional but highly recommended as it will apply styles to better fit with the (default) filament theme:
 ```css
-@import '../../../../vendor/guava/calendar/resources/css/theme.css';
+@import '../../../../vendor/adultdate/filament-calendar/resources/css/theme.css';
 ```
 
 The paths might be a little bit different if your theme.css is located in a non-standard path. Adjust accordingly.
 
 ## Usage
 
-# Creating the calendar Widget
+# Creating the filament-calendar Widget
 First you need to create a custom widget and extend the `CalendarWidget` class. Make sure to remove the `view` property from the generated widget class!
 
 Either use the artisan command or simply create an empty class and extend `CalendarWidget`:
@@ -114,9 +114,9 @@ class MyCalendarWidget extends CalendarWidget
 
 Add the widget like a regular widget to any filament page you like, such as your `Dashboard`.
 
-Congrats! You now have a working calendar in filament!
+Congrats! You now have a working filament-calendar in filament!
 
-## Customizing the calendar view
+## Customizing the filament-calendar view
 By default, we show the `DayGridMonth` view. You can customize the view by overriding the `calendarView` property on the widget class:
 
 ```php
@@ -128,7 +128,7 @@ protected CalendarViewType $calendarView = CalendarViewType::ResourceTimeGridWee
 The `CalendarViewType` enum contains all available views that you can use.
 
 ## Adding events
-You have probably noticed that your calendar is still empty.
+You have probably noticed that your filament-calendar is still empty.
 
 To add events, override the `getEvents` method, described in more detail below.
 
@@ -140,15 +140,15 @@ FetchInfo is a ValueObject we provide which type hints all parameters that are m
 
 To learn more about FetchInfo and other Value Objects, please refer to the Value Object documentation.
 
-There are two distinct ways on how to provide Events to the calendar. Which way you use depends on your personal preference and the source of your events.
+There are two distinct ways on how to provide Events to the filament-calendar. Which way you use depends on your personal preference and the source of your events.
 
 ### 1. From Eloquent
 > [!IMPORTANT]
-> Make sure that the Model class implements `Eventable`. Without it we are not able to map your model into a calendar event.
+> Make sure that the Model class implements `Eventable`. Without it we are not able to map your model into a filament-calendar event.
 > 
-> For more information, please refer to the [Calendar Events section](#calendar-events).
+> For more information, please refer to the [Calendar Events section](#filament-calendar-events).
 
-In the majority of cases, you will most likely want to display your eloquent models as events inside the calendar.
+In the majority of cases, you will most likely want to display your eloquent models as events inside the filament-calendar.
 
 The easiest way to do that is to just return your Eloquent Query, and we will handle the rest.
 
@@ -193,7 +193,7 @@ protected function getEvents(FetchInfo $info): Collection | array | Builder
 {
     return [
         CalendarEvent::make()
-            ->title('My first calendar')
+            ->title('My first filament-calendar')
             ->start(now())
             ->end(now()->addHours(2)),
     ];
@@ -201,7 +201,7 @@ protected function getEvents(FetchInfo $info): Collection | array | Builder
 ```
 
 ## Calendar events
-As seen above, the calendar expects `CalendarEvent` objects, which are configurable ValueObjects that help you build the required calendar object.
+As seen above, the filament-calendar expects `CalendarEvent` objects, which are configurable ValueObjects that help you build the required filament-calendar object.
 
 For this purpose, we have an `Eventable` interface which you can add to **any class** that you want to be able to display as an event in your calendars.
 
@@ -217,7 +217,7 @@ class Foo extends Model implements Eventable
 {
     // ...
     
-    // This is where you map your model into a calendar object
+    // This is where you map your model into a filament-calendar object
     public function toCalendarEvent(): CalendarEvent
     {
         // For eloquent models, make sure to pass the model to the constructor
@@ -229,17 +229,17 @@ class Foo extends Model implements Eventable
 }
 ```
 
-Notice that the model instance is passed to the `Event` constructor in the `make` method. This sets the `key` and `model` properties to the calendar object, so it can be used to trigger actions.
+Notice that the model instance is passed to the `Event` constructor in the `make` method. This sets the `key` and `model` properties to the filament-calendar object, so it can be used to trigger actions.
 
 This is a crucial step, if you forget to add this, we will not be able to identify the model when the event is interacted with (for example, when clicked).
 
 ### Configuration
-The `CalendarEvent` takes all available options like the underlying calendar package, for more info [read here](https://github.com/vkurko/calendar?tab=readme-ov-file#event-object).
+The `CalendarEvent` takes all available options like the underlying filament-calendar package, for more info [read here](https://github.com/vkurko/filament-calendar?tab=readme-ov-file#event-object).
 
-Below is a list of available methods on the calendar object:
+Below is a list of available methods on the filament-calendar object:
 
 #### Setting the title
-Sets the title of the event that is rendered in the calendar.
+Sets the title of the event that is rendered in the filament-calendar.
 ```php
 CalendarEvent::make()->title('My event');
 ```
@@ -253,21 +253,21 @@ CalendarEvent::make()
 
 
 #### Customizing the start/end date
-Sets the start or end date (and time) of the calendar in the calendar.
+Sets the start or end date (and time) of the filament-calendar in the filament-calendar.
 ```php
 CalendarEvent::make()
     ->start(today())
     ->end(today()->addDays(3));
 ```
 
-#### Making the calendar all-day
-Sets whether the calendar is an all-day calendar or not.
+#### Making the filament-calendar all-day
+Sets whether the filament-calendar is an all-day filament-calendar or not.
 ```php
 CalendarEvent::make()->allDay();
 ```
 
 #### Customizing the background / text color
-Sets the background color of the calendar (by default, it is the primary color of your filament panel).
+Sets the background color of the filament-calendar (by default, it is the primary color of your filament panel).
 ```php
 CalendarEvent::make()
 ->backgroundColor('#ff0000')
@@ -276,7 +276,7 @@ CalendarEvent::make()
 
 #### Customizing Event Styles
 
-You can add custom styles to your calendar elements by using the styles method. This method accepts an array where each entry can be a CSS style declaration. The styles will be directly applied to the calendar element in the view. You can define styles in three ways:
+You can add custom styles to your filament-calendar elements by using the styles method. This method accepts an array where each entry can be a CSS style declaration. The styles will be directly applied to the filament-calendar element in the view. You can define styles in three ways:
 
 - As a key-value pair where the key is the CSS property and value is the condition under which the style should apply.
 - As a key-value pair where the key is the CSS property and the value is directly the CSS value.
@@ -294,10 +294,10 @@ CalendarEvent::make()->styles([
 
 ##### Usage Notes:
 
-- The first format ('color: red' => true) is useful for conditional styling based on dynamic conditions. For instance, changing the text color based on an calendar's type or status.
+- The first format ('color: red' => true) is useful for conditional styling based on dynamic conditions. For instance, changing the text color based on an filament-calendar's type or status.
 
 - The second format ('background-color' => '#ffff00') is straightforward for applying styles where the values do not depend on conditions.
-- The third format ('font-size: 12px') is used when the style does not require any condition and is always applied to the calendar.
+- The third format ('font-size: 12px') is used when the style does not require any condition and is always applied to the filament-calendar.
 This flexibility allows you to easily customize the appearance of events based on dynamic conditions or predefined settings.
 
 #### Customizing Event Classes
@@ -318,9 +318,9 @@ CalendarEvent::make()->classNames([
 - The second format ('class-2' => true) is useful for conditional classes based on dynamic conditions.
 
 #### Customizing the display
-By default, events are rendered as `blocks`. This is when the display is set to `auto`, which it is by default. You can also change the calendar to be rendered as a background calendar, which then fills the whole date cell. To do so, you can set `display` to `background` on the calendar:
+By default, events are rendered as `blocks`. This is when the display is set to `auto`, which it is by default. You can also change the filament-calendar to be rendered as a background filament-calendar, which then fills the whole date cell. To do so, you can set `display` to `background` on the filament-calendar:
 
-This doesn't always work though, it only works on all day events and in specific views. If the `background` calendar is unsupported, the calendar will not be rendered at all.
+This doesn't always work though, it only works on all day events and in specific views. If the `background` filament-calendar is unsupported, the filament-calendar will not be rendered at all.
 
 ```php
 CalendarEvent::make()
@@ -330,7 +330,7 @@ CalendarEvent::make()
 ```
 
 #### Setting the action on click
-This sets the action that should be mounted when the calendar is clicked. It can be any name of a filament action you defined in your widget, such as `edit` or `view`.
+This sets the action that should be mounted when the filament-calendar is clicked. It can be any name of a filament action you defined in your widget, such as `edit` or `view`.
 
 By default, all `CalendarWidget` classes already include a `view` and `edit` action.
 
@@ -341,7 +341,7 @@ CalendarEvent::make()->action('edit');
 #### Set the model and record key
 To mount the action with the correct record, we need to pass the model type and primary key of the record.
 
-The model is also required if you want to display multiple types of events and have each be rendered differently (see customizing calendar content).
+The model is also required if you want to display multiple types of events and have each be rendered differently (see customizing filament-calendar content).
 
 ```php
 $record = MyModel::find(1);
@@ -355,7 +355,7 @@ CalendarEvent::make()
 ```
 
 #### Linking to resources
-If you use resources in your calendar, you need to tell your events which resource(s) they belong to.
+If you use resources in your filament-calendar, you need to tell your events which resource(s) they belong to.
 
 To do this, pass an array of resource IDs to the event:
 ```php
@@ -375,18 +375,18 @@ CalendarEvent::make()
 ```
 
 ## Adding Resources
-If you configure your calendar to use a `resource` view, you will need to also define which resources to display in the calendar.
+If you configure your filament-calendar to use a `resource` view, you will need to also define which resources to display in the filament-calendar.
 
-Similarly to events, There are two distinct ways on how to provide Resources to the calendar.
+Similarly to events, There are two distinct ways on how to provide Resources to the filament-calendar.
 
 ### 1. From Eloquent
 
 > [!IMPORTANT]
-> Make sure that the Model class implements `Resourceable`. Without it, we are not able to map your model into a calendar resource.
+> Make sure that the Model class implements `Resourceable`. Without it, we are not able to map your model into a filament-calendar resource.
 >
-> For more information, please refer to the [Calendar Resources section](#calendar-resources).
+> For more information, please refer to the [Calendar Resources section](#filament-calendar-resources).
 
-In the majority of cases, you will most likely want to display your eloquent models as resources inside the calendar.
+In the majority of cases, you will most likely want to display your eloquent models as resources inside the filament-calendar.
 
 The easiest way to do that is to just return your Eloquent Query, and we will handle the rest.
 
@@ -424,7 +424,7 @@ protected function getResources(): Collection | array | Builder
 ```
 
 ### Link events to resources
-Now we successfully display resources in the calendar, but we still need to add the events to their corresponding resource.
+Now we successfully display resources in the filament-calendar, but we still need to add the events to their corresponding resource.
 
 To do this, update your `CalendarEvent` objects (either directly in the `getEvents` method or in your classes implementing `Eventable`, depending on which approach you chose) and include the resource IDs it belongs to.
 
@@ -432,7 +432,7 @@ Please refer to the [Calendar Event: linking to resources section](#linking-to-r
 
 ## Calendar Resources
 
-As seen above, the calendar expects `CalendarResource` objects, which are configurable ValueObjects that help you build the required calendar object.
+As seen above, the filament-calendar expects `CalendarResource` objects, which are configurable ValueObjects that help you build the required filament-calendar object.
 
 For this purpose, we have a `Resourceable` interface which you can add to **any class** that you want to be able to display as a resource in your calendars.
 
@@ -448,7 +448,7 @@ class Bar extends Model implements Resourceable
 {
     // ...
     
-    // This is where you map your model into a calendar resource object
+    // This is where you map your model into a filament-calendar resource object
     public function toCalendarResource(): CalendarResource
     {
         return CalendarResource::make('my-unique-id')
@@ -458,12 +458,12 @@ class Bar extends Model implements Resourceable
 ```
 
 ### Configuration
-The `CalendarResource` takes all available options like the underlying calendar package, for more info [read here](https://github.com/vkurko/calendar?tab=readme-ov-file#resource-object).
+The `CalendarResource` takes all available options like the underlying filament-calendar package, for more info [read here](https://github.com/vkurko/filament-calendar?tab=readme-ov-file#resource-object).
 
-Below is a list of available methods on the calendar object:
+Below is a list of available methods on the filament-calendar object:
 
 #### Setting the title
-Sets the title of the resource that is rendered in the calendar.
+Sets the title of the resource that is rendered in the filament-calendar.
 ```php
 CalendarResource::make()->title('My resource');
 ```
@@ -490,24 +490,24 @@ CalendarResource::make()
 ```
 
 ## Available Methods
-The calendar widget class itself contains a few useful methods.
+The filament-calendar widget class itself contains a few useful methods.
 
 ### Refresh events
-If you need to trigger a refresh of the events in the calendar, you can call `refreshRecords()` on the widget.
+If you need to trigger a refresh of the events in the filament-calendar, you can call `refreshRecords()` on the widget.
 
 ```php
 $this->refreshRecords();
 ```
 
 ### Refresh resources
-If you need to trigger a refresh of the resources in the calendar, you can call `refreshResources()` on the widget.
+If you need to trigger a refresh of the resources in the filament-calendar, you can call `refreshResources()` on the widget.
 
 ```php
 $this->refreshResources();
 ```
 
 ### Set Option
-To change any calendar option during runtime, you can use the `setOption()` method on the widget.
+To change any filament-calendar option during runtime, you can use the `setOption()` method on the widget.
 
 For example, to programmatically change the date, you can use:
 ```php
@@ -515,14 +515,14 @@ $this->setOption('date', today()->addDay()->toIso8601String());
 ```
 
 ## Customization
-Now that we know how to create a working calendar widget, we can learn how to customize the calendar to our liking.
+Now that we know how to create a working filament-calendar widget, we can learn how to customize the filament-calendar to our liking.
 
-The calendar widget contains a bunch of properties and methods that you can override in order to customize the widget.
+The filament-calendar widget contains a bunch of properties and methods that you can override in order to customize the widget.
 
 In this section we will go through each of these options.
 
 ### Calendar view
-The calendar comes with a variety of views. You can the calendar view per widget by overriding the `calendarView` property:
+The filament-calendar comes with a variety of views. You can the filament-calendar view per widget by overriding the `calendarView` property:
 
 ```php
 use Guava\Calendar\Enums\CalendarViewType;
@@ -533,18 +533,18 @@ protected CalendarViewType $calendarView = CalendarViewType::ListWeek;
 Check the `CalendarViewType` enum for a list of available views.
 
 ### Locale
-By default, the calendar will use your app's locale.
+By default, the filament-calendar will use your app's locale.
 
-The underlying calendar package doesn't support locales as a combination of language and region/country code, so locales such as `fr_CA` or `en_US` become invalid.
+The underlying filament-calendar package doesn't support locales as a combination of language and region/country code, so locales such as `fr_CA` or `en_US` become invalid.
 
-We attempt to resolve this by only using the first language part of the locale. If you still run into any issues with the localization, you can override the calendar's locale manually using the `locale` property:
+We attempt to resolve this by only using the first language part of the locale. If you still run into any issues with the localization, you can override the filament-calendar's locale manually using the `locale` property:
 
 ```php
 protected ?string $locale = 'en';
 ```
 
 ### First Day
-By default, the calendar will use `Monday` as the first day.
+By default, the filament-calendar will use `Monday` as the first day.
 
 You can customize this by overriding the `firstDay` property:
 ```php
@@ -569,30 +569,30 @@ protected bool $dayMaxEvents = true;
 > [!CAUTION]
 > While we still recommend setting this property to true, it **does** come with some potential side effects that you need to keep in mind. Keep reading to learn more.
 
-The underlying Event Calendar does **not support** working with timezones. Thus, everything the user sees in their calendar is rendered in their **local browser time**.
+The underlying Event Calendar does **not support** working with timezones. Thus, everything the user sees in their filament-calendar is rendered in their **local browser time**.
 
-This can cause confusion when adding interactivity to your calendar (such as editing events or creating events using filament modals), because filament will display the time **not** in the user's local browser time, but in the **app's timezone** (as configured in config/app.php).
+This can cause confusion when adding interactivity to your filament-calendar (such as editing events or creating events using filament modals), because filament will display the time **not** in the user's local browser time, but in the **app's timezone** (as configured in config/app.php).
 
 However, as of Filament v4, a `FilamentTimezone` can be configured which will make Filament automatically convert between the Apps timezone setting and your filament timezone.  This allows you to store users preferred timezone and convert it back and forth when displaying it to the user, for example via a DatePicker.
 
 To learn more about the `FilamentTimezone` setting, please refer to the [Filament documentation](https://filamentphp.com/docs/4.x/forms/date-time-picker#timezones). 
 
-If you want your calendar to use the same timezone as configured via `FilamentTimezone`, you can use the `useFilamentTimezone` property to do so:
+If you want your filament-calendar to use the same timezone as configured via `FilamentTimezone`, you can use the `useFilamentTimezone` property to do so:
 
 ```php
 protected bool $useFilamentTimezone = true;
 ```
 
-To achieve this, we intercept dates sent from / to the calendar and override the timezone with the filament's timezone.
+To achieve this, we intercept dates sent from / to the filament-calendar and override the timezone with the filament's timezone.
 
-However, please keep in mind that this currently comes with a few side effects, as we are not able to override all dates / times used internally by the calendar.
+However, please keep in mind that this currently comes with a few side effects, as we are not able to override all dates / times used internally by the filament-calendar.
 
 For example, if you enable the `now indicator`, it will still use the user's local browser time. We are trying to find a solution to fix this.
 
 ### Heading
 By default, the Heading displays the content of the `translations.heading` key (by default, it just says `Calendar`).
 
-You can customize the heading of your calendar widget by overriding the `$heading` property or `getHeading` method:
+You can customize the heading of your filament-calendar widget by overriding the `$heading` property or `getHeading` method:
 
 ```php
 // Setting to null will disable the heading completely
@@ -607,9 +607,9 @@ public function getHeading(): string|HtmlString
 
 ## Interactivity
 
-By now you should have a perfectly fine and working calendar. However, it is still very static - you can view your events, but there is no way to interact with them.
+By now you should have a perfectly fine and working filament-calendar. However, it is still very static - you can view your events, but there is no way to interact with them.
 
-The calendar supports many ways to interact with, which will be described below individually.
+The filament-calendar supports many ways to interact with, which will be described below individually.
 
 ### Actions
 > [!CAUTION]
@@ -617,7 +617,7 @@ The calendar supports many ways to interact with, which will be described below 
 > 
 > Please check the [Authorization section](#authorization) to learn how to authorize actions.
 
-Before you read about the different ways to add interactions to your calendar, you need to understand how actions in the calendar work.
+Before you read about the different ways to add interactions to your filament-calendar, you need to understand how actions in the filament-calendar work.
 
 Actions used within the Calendar context need the `CalendarAction` trait to work properly.
 
@@ -633,7 +633,7 @@ Whenever you want to use one of these actions, **make sure** you use the actions
 So, instead of using `Filament\Actions\CreateAction` you would use `Guava\Calendar\Filament\Actions\CreateAction`.
 
 #### Defining actions
-Every action you use in the calendar should be defined as a public method in the widget class, just as usual when adding an [Action to a Livewire component](https://filamentphp.com/docs/4.x/components/action#adding-the-action) in filament.
+Every action you use in the filament-calendar should be defined as a public method in the widget class, just as usual when adding an [Action to a Livewire component](https://filamentphp.com/docs/4.x/components/action#adding-the-action) in filament.
 
 `View`, `Edit` and `Delete` actions are already present for you. You do not need to add them anymore.
 
@@ -658,7 +658,7 @@ public function createFooAction(): CreateAction
 Both variants are equal, and it's just up to your personal preference which one you want to use.
 
 #### Mounting actions
-whenever you want to mount an action programmatically within a calendar context, such as in the `onDateClick` method (more on this later), you can use the `mountAction` method. 
+whenever you want to mount an action programmatically within a filament-calendar context, such as in the `onDateClick` method (more on this later), you can use the `mountAction` method. 
 
 ```php
 public function onDateClick(DateClickInfo $info) {
@@ -679,7 +679,7 @@ public function createFooAction(): CreateAction
 {
     return $this->createAction(Foo::class)
         ->mountUsing(function (?ContextualInfo $info) {
-            // You can now access contextual info from the calendar using the $info argument 
+            // You can now access contextual info from the filament-calendar using the $info argument 
             if ($info instanceof DateClickInfo) {
                 // do something on date click
             }
@@ -696,11 +696,11 @@ public function createFooAction(): CreateAction
 ```
 
 #### Accessing context information
-As seen above, we provide various contextual information for you when using calendar actions:
+As seen above, we provide various contextual information for you when using filament-calendar actions:
 
 | Parameter         | Description                                                                            |
 |-------------------|----------------------------------------------------------------------------------------|
-| Context           | The current context enum or null if not in calendar context                            |
+| Context           | The current context enum or null if not in filament-calendar context                            |
 | DateClickInfo     | If in the DateClick context, it will contain the DateClickInfo, otherwise null         |
 | DateSelectInfo    | If in the DateSelect context, it will contain the DateSelectInfo, otherwise null       |
 | EventClickInfo    | If in the EventClick context, it will contain the EventClickInfo, otherwise null       |
@@ -730,12 +730,12 @@ But sometimes, you might want to customize the Schema that will be used in your 
 
 You have a few options available:
 - Stick to auto discovery, in which case you are ready to go :-),
-- if your calendar works with a single model only or you reuse the same schema for multiple models, you can implement the `schema` or `defaultSchema` method,
+- if your filament-calendar works with a single model only or you reuse the same schema for multiple models, you can implement the `schema` or `defaultSchema` method,
 - or you can implement a schema per model
 
 #### Implementing a default schema
 
-If you only work with a single model, or you want to share the same schema across multiple models, you can implement the `schema` or `defaultSchema` method (both are equivalent) in your calendar widget:
+If you only work with a single model, or you want to share the same schema across multiple models, you can implement the `schema` or `defaultSchema` method (both are equivalent) in your filament-calendar widget:
 
 ```php
 public function defaultSchema(Schema $schema): Schema
@@ -775,7 +775,7 @@ public function baz(Schema $schema): Schema
 
 ### Date Click
 
-A date click event is triggered when a date cell is clicked in the calendar.
+A date click event is triggered when a date cell is clicked in the filament-calendar.
 
 To handle date clicks, first enable them by overriding the `dateClickEnabled` property:
 
@@ -826,7 +826,7 @@ The context menu has a higher priority, so if it returns a non-empty array, it w
 
 ### Date Select
 
-Similarly, a date select event is triggered when a date cell is dragged to create a selection in the calendar.
+Similarly, a date select event is triggered when a date cell is dragged to create a selection in the filament-calendar.
 
 To handle date selects, first enable them by overriding the `dateSelectEnabled` property:
 
@@ -877,7 +877,7 @@ The context menu has a higher priority, so if it returns a non-empty array, it w
 
 ### Event Click
 
-An event click event is triggered when an event is clicked in the calendar.
+An event click event is triggered when an event is clicked in the filament-calendar.
 
 To handle event clicks, first enable them by overriding the `eventClickEnabled` property:
 
@@ -938,7 +938,7 @@ The context menu has a higher priority, so if it returns a non-empty array, it w
 > [!NOTE]  
 > This has affect only in list views.
 
-A no events click event is triggered when a list view has no events to display and the calendar content was clicked.
+A no events click event is triggered when a list view has no events to display and the filament-calendar content was clicked.
 
 To handle no events clicks, first enable them by overriding the `noEventsClickEnabled` property:
 
@@ -989,7 +989,7 @@ The context menu has a higher priority, so if it returns a non-empty array, it w
 
 ### Event Resize
 
-Callback function that is triggered when you finish resizing an event in your calendar.
+Callback function that is triggered when you finish resizing an event in your filament-calendar.
 
 To handle the callback, first enable it by overriding the `eventResizeEnabled` property:
 
@@ -1021,7 +1021,7 @@ protected function onEventResize(EventResizeInfo $info, Model $event): void
 
 ### Event Drag & Drop
 
-Callback function that is triggered when you finish dragging and drop an event to a date cell in your calendar.
+Callback function that is triggered when you finish dragging and drop an event to a date cell in your filament-calendar.
 
 To handle the callback, first enable it by overriding the `eventDragEnabled` property:
 
@@ -1029,7 +1029,7 @@ To handle the callback, first enable it by overriding the `eventDragEnabled` pro
 protected bool $eventDragEnabled = true;
 ```
 
-Now it is enabled and a request will be sent to livewire after you drop the event to a date cell in the calendar.
+Now it is enabled and a request will be sent to livewire after you drop the event to a date cell in the filament-calendar.
 
 #### Implementing your own logic
 
@@ -1062,7 +1062,7 @@ protected function onEventDrop(EventDropInfo $info, Model $event): bool
 
 ### Dates Set
 
-When the date range of the calendar was originally set or changed by clicking the previous/next buttons, changing the view, manipulating the current date via the API, etc. a Dates Set event is triggered.
+When the date range of the filament-calendar was originally set or changed by clicking the previous/next buttons, changing the view, manipulating the current date via the API, etc. a Dates Set event is triggered.
 
 To handle the Dates Set callback, first enable it by overriding the `datesSetEnabled` property:
 
@@ -1070,7 +1070,7 @@ To handle the Dates Set callback, first enable it by overriding the `datesSetEna
 protected bool $datesSetEnabled = true;
 ```
 
-Now it is enabled and a request will be sent to livewire each time the calendar date range is changed (or initially set).
+Now it is enabled and a request will be sent to livewire each time the filament-calendar date range is changed (or initially set).
 
 #### Implementing your own logic
 
@@ -1097,7 +1097,7 @@ To handle the callback, first enable it by overriding the `viewDidMountEnabled` 
 protected bool $viewDidMountEnabled = true;
 ```
 
-Now it is enabled and a request will be sent to livewire right after the calendar view has been added to the DOM.
+Now it is enabled and a request will be sent to livewire right after the filament-calendar view has been added to the DOM.
 
 #### Implementing your own logic
 
@@ -1115,9 +1115,9 @@ protected function onViewDidMount(ViewDidMountInfo $info): void
 ```
 
 ## Custom Event Content
-By default, we use the default view from the calendar package. However, you are able to use your own content.
+By default, we use the default view from the filament-calendar package. However, you are able to use your own content.
 
-To keep things performant, the blade view is rendered **once** on the server and then re-used for every event. Thus, you **cannot** access the calendar event data from the server side via Blade or Laravel, or do any server-side operations.
+To keep things performant, the blade view is rendered **once** on the server and then re-used for every event. Thus, you **cannot** access the filament-calendar event data from the server side via Blade or Laravel, or do any server-side operations.
 
 However, each event is wrapped in an alpine component, which exposes the event data that you can freely use using [AlpineJS](https://alpinejs.dev/).
 
@@ -1129,14 +1129,14 @@ use Illuminate\Support\HtmlString;
 protected function eventContent(): HtmlString|string
 {
     // return a blade view
-    return view('calendar.event');
+    return view('filament-calendar.event');
     
     // return a HtmlString
     return new HtmlString('<div>My event</div>');
 }
 ```
 
-Example of the `calendar.event` view blade file: 
+Example of the `filament-calendar.event` view blade file: 
 ```bladehtml
 <div class="flex flex-col items-start">
     <span x-text="event.title"></span>
@@ -1155,22 +1155,22 @@ use Guava\Calendar\Attributes\CalendarEventContent;
 #[CalendarEventContent(Foo::class)]
 protected function eventContentForFoo(): HtmlString|string
 {
-    return view('calendar.foo-model-event');
+    return view('filament-calendar.foo-model-event');
 }
 
 // Variant 2.
 protected function barEventContent(): HtmlString|string
 {
-    return view('calendar.bar-model-event');
+    return view('filament-calendar.bar-model-event');
 }
 ```
 
 Both variants are equal, it's up to your personal preference which one you want to use.
 
 ## Custom Resource Label Content
-By default, we use the default view from the calendar package. However, you are able to use your own content.
+By default, we use the default view from the filament-calendar package. However, you are able to use your own content.
 
-To keep things performant, the blade view is rendered **once** on the server and then re-used for every resource. Thus, you **cannot** access the calendar resource data from the server side via Blade or Laravel, or do any server-side operations.
+To keep things performant, the blade view is rendered **once** on the server and then re-used for every resource. Thus, you **cannot** access the filament-calendar resource data from the server side via Blade or Laravel, or do any server-side operations.
 
 However, each resource is wrapped in an alpine component, which exposes the resource data that you can freely use using [AlpineJS](https://alpinejs.dev/).
 
@@ -1182,14 +1182,14 @@ use Illuminate\Support\HtmlString;
 protected function resourceLabelContent(): HtmlString|string
 {
     // return a blade view
-    return view('calendar.resource');
+    return view('filament-calendar.resource');
     
     // return a HtmlString
     return new HtmlString('<div>My resource</div>');
 }
 ```
 
-Example of the `calendar.resource` view blade file:
+Example of the `filament-calendar.resource` view blade file:
 ```bladehtml
 <div class="flex flex-col items-start">
     <span x-text="resource.title"></span>
@@ -1205,13 +1205,13 @@ use Guava\Calendar\Attributes\CalendarResourceLabelContent;
 #[CalendarResourceLabel(Foo::class)]
 protected function resourceLabelContentForFoo(): HtmlString|string
 {
-    return view('calendar.foo-model-resource');
+    return view('filament-calendar.foo-model-resource');
 }
 
 // Variant 2.
 protected function barResourceLabelContent(): HtmlString|string
 {
-    return view('calendar.bar-model-resource');
+    return view('filament-calendar.bar-model-resource');
 }
 ```
 
@@ -1248,27 +1248,27 @@ public function createFooAction(): CreateAction
 For detailed information, please follow the default filament documentation on how to add [authorization to actions](https://filamentphp.com/docs/4.x/actions/overview#authorization).
 
 ## Utility Classes
-We provide various helper and utility classes to provide you with type hints for various arguments that are being passed from the calendar to your widget.
+We provide various helper and utility classes to provide you with type hints for various arguments that are being passed from the filament-calendar to your widget.
 
 ### CalendarViewType
-This enum contains all available calendar views that you can use in your calendar widget.
+This enum contains all available filament-calendar views that you can use in your filament-calendar widget.
 
 ### FetchInfo
-When the calendar retrieves events, it provides you with a `FetchInfo` object which contains information about the current calendar view.
+When the filament-calendar retrieves events, it provides you with a `FetchInfo` object which contains information about the current filament-calendar view.
 
 Use this to query only models that are visible in the current view.
 
 | Property | Description                                                                                                     |
 |--------|-----------------------------------------------------------------------------------------------------------------|
-| start  | Start date of the range the calendar needs events for. Events before this date are not visible in the calendar. |
-| end    | End date of the range the calendar needs events for. Events after this date are not visible in the calendar.    |
+| start  | Start date of the range the filament-calendar needs events for. Events before this date are not visible in the filament-calendar. |
+| end    | End date of the range the filament-calendar needs events for. Events after this date are not visible in the filament-calendar.    |
 
 ## Troubleshooting
 ### Context menu actions don't work
 If you encounter issues with the context menu, make sure that the name of the action is unique across the whole widget. If there is another action with the same name, it might be mounted instead of the one you want.
 
 ### Record vs Event record
-When working with resource widgets, `$record` is the record of the currently opened resource record, whereas `$eventRecord` is the record of the calendar event (during calendar actions, context menus, etc.).
+When working with resource widgets, `$record` is the record of the currently opened resource record, whereas `$eventRecord` is the record of the filament-calendar event (during filament-calendar actions, context menus, etc.).
 
 ## Security measures
 Keep in mind that a lot of the data in this package comes from the client side JavaScript and could be tampered with. Always validate the data on the server side and never trust the data from the client side.
@@ -1295,7 +1295,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 - [Lukas Frey](https://github.com/GuavaCZ)
 - [All Contributors](../../contributors)
 - Spatie - Our package skeleton is a modified version of [Spatie's Package Skeleton](https://github.com/spatie/package-skeleton-laravel)
-- [vkurko/calendar](https://github.com/vkurko/calendar) - free, open-source alternative to FullCalendar
+- [vkurko/filament-calendar](https://github.com/vkurko/filament-calendar) - free, open-source alternative to FullCalendar
 - [saade/filament-fullcalendar](https://github.com/saade/filament-fullcalendar) - heavy inspiration for this package
 
 ## License
